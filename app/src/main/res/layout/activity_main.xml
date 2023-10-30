@@ -7,6 +7,34 @@
     tools:context=".MainActivity">
 
     <ImageView
+        android:layout_width="133dp"
+        android:layout_height="115dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="57dp"
+        android:layout_marginEnd="138dp"
+        android:src="@drawable/qr_icon" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="198dp"
+        android:layout_marginEnd="40dp"
+        android:text="qr코드를 찍어 운행시작"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:textColor="@color/black"
+        tools:layout_editor_absoluteX="69dp"
+        tools:layout_editor_absoluteY="254dp" />
+
+    <ImageView
         android:id="@+id/imageView"
         android:layout_width="330dp"
         android:layout_height="524dp"
@@ -14,13 +42,12 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="49dp"
-        android:layout_marginTop="98dp"
-        android:layout_marginEnd="32dp"
-        android:layout_marginBottom="182dp"
-        android:src="@drawable/start"
-        tools:layout_editor_absoluteX="66dp"
-        tools:layout_editor_absoluteY="173dp"
         android:layout_centerInParent="true"
-        />
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="242dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="38dp"
+        android:src="@drawable/end"
+        tools:layout_editor_absoluteX="66dp"
+        tools:layout_editor_absoluteY="173dp" />
 </RelativeLayout>
